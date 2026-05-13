@@ -1,0 +1,47 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## User-specific / IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.DotSettings.user
+
+## SQLite local (opcional: remova a linha abaixo se quiser versionar o .db)
+*.db
+*.db-shm
+*.db-wal
+
+## OS
+.DS_Store
+Thumbs.db
+
+bin/
+obj/
+
+## Secrets / local env
+.env
+.env.*
+!.env.example
+
+## NuGet
+*.nupkg
+**/packages/
+
+## Test / coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Misc
+*.swp
+*.tmp
+*~
