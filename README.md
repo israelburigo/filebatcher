@@ -76,3 +76,7 @@ A aplicação escuta na porta **8080** dentro do container (`ASPNETCORE_URLS`).
 ## Solução
 
 O arquivo `FileBatcher.slnx` na raiz agrupa o projeto `FileBatcher.Api`.
+
+## Processo seletivo (frontend)
+
+Descrição do desafio, história e **como a API se comporta** (estados, FIFO, import, processamento): ver [`docs/frontend-challenge.md`](docs/frontend-challenge.md).
